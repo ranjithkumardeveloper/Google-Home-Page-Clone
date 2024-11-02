@@ -1,0 +1,170 @@
+/* Google Home Style */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: arial, sans-serif;
+}
+
+body {
+    font-size: 14px;
+    color: #666;
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: auto;
+}
+
+.nav {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+.nav__split {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    padding: 10px;
+    text-align: center;
+}
+
+.nav-split--link {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.nav-split--link:hover {
+    text-decoration: underline;
+}
+
+.nav-split--link-btn {
+    color: #ffff;
+    font-weight: bold;
+    background-color: #0b57d0 !important;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px 10px 20px;
+}
+
+/* Header section End */
+
+/* Main Section Start*/
+.main-section {
+    width: 1140px;
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main-section-logo {
+    padding-top: 80px;
+}
+
+.main-form {
+    display: flex;
+    width: 50%;
+    height: 8%;
+    margin: 20px auto;
+    border-radius: 50px;
+    border: 1px solid #666;
+    opacity: 0.4;
+}
+
+.main-form:hover {
+    box-shadow: 0 0 8px #666;
+}
+
+.form--style {
+    display: flex;
+    flex: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form--icon {
+    padding: 8px;
+    cursor: pointer;
+}
+
+#search {
+    display: flex;
+    flex: 100%;
+    height: 100%;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 16px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    background-color: #f4f4f4;
+    color: #666;
+    border: 1px solid #f4f4f4;
+    border-radius: 4px;
+    font-size: 14px;
+    margin: 10px;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button:hover {
+    border: 1px solid #666;
+}
+
+/* Main Section End*/
+
+/* Footer Section Start*/
+.country-info {
+    background-color: #f4f4f4;
+    padding: 10px;
+    color: #666;
+    border-bottom: 1px solid #dadce0;
+}
+
+.footer {
+    background-color: #f4f4f4;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+    display: flex;
+    bottom: 0;
+}
+
+.footer-nav {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.footer--link {
+    padding: 15px 10px;
+    text-decoration: none;
+    color: #666;
+}
+
+.footer--link:hover {
+    text-decoration: underline;
+    color: #000;
+}
+
+/* Footer section End*/
