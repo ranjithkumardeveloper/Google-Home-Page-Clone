@@ -17,3 +17,6 @@ Google Logo: Google logo image
 Google Icons: Google Material Icons for iconography.
 
 Cached Google Page: Archived Google homepage for additional reference.
+
+## Reference Image
+![Google Homepage Screenshot](https://raw.githubusercontent.com/ranjithkumardeveloper/Google-Home-Page-Clone/main/docs/reference.png)
